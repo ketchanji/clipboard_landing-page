@@ -382,4 +382,50 @@
         color: aliceblue;
         margin-top: 20px;
     }
+    .footer{
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsl(210, 11%, 86%);
+        margin: auto;
+    }
+    .contain img{
+        width: 30%;
+        margin: auto;
+
+    }
+    .contain{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+    .icons img{
+        border-radius: 9px;
+    }
+    .inside{
+        display: block;
+        margin-left: 70px;
+    }
+    .nav ul{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        row-gap: 0;
+    }
+    .nav ul li{
+        list-style: none;
+        padding: 8px 0;
+        text-align: center;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        color: rgb(73, 71, 71);
+        font-size: 20px;
+    }
 }
